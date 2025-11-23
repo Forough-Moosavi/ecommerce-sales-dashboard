@@ -1,132 +1,63 @@
+# 📊 E-Commerce Sales Dashboard (Excel + Power BI)
 
-# Electronics Sales Dashboard (Power BI)
-
-A complete, interactive Power BI dashboard built using a synthetic electronics sales dataset.  
-This project demonstrates essential and advanced BI skills including data cleaning, modeling, DAX, filters, drill‑through pages, and custom tooltips.
-
----
-
-## 📊 Project Overview
-
-This interactive dashboard provides deep insights into:
-
-- **Monthly Sales Performance**
-- **Top-selling Products**
-- **Sales by Category**
-- **Sales by Store**
-- **Quantity, Profit, and Revenue KPIs**
-- **Drill‑through Details per Category**
-- **Advanced Tooltip Pages**
+A complete end-to-end data analytics project using **Excel** and **Power BI**, based on a synthetic dataset of **10,000 e-commerce orders**.  
+This dashboard demonstrates skills in **Power Query**, **PivotTables**, **DAX**, **Drillthrough**, **Tooltip pages**, and **interactive BI design**.
 
 ---
 
-## 🧹 Data Cleaning & Preparation (Power Query)
+# 🧹 Excel Analysis (PivotTables)
 
-- Trimmed & cleaned text fields  
-- Removed null rows  
-- Extracted date hierarchy  
-- Corrected data types  
-- Added calculated columns (Year, Month Name)
+## 1️⃣ Monthly Sales Overview  
+![Monthly Sales](screenshots/excel Monthly Sales.png)
 
 ---
 
-## 📈 Main Dashboard Features
-
-### ✔ Monthly Sales Line Chart  
-Shows monthly sales trends with KPIs for:
-- Total Sales  
-- Profit  
-- Quantity  
-
-### ✔ Category‑wise Sales  
-Bar chart comparing performance of all product categories.
-
-### ✔ Store Performance  
-Top N store filtering with dynamic visuals.
-
-### ✔ Product Sales  
-Sorted bar chart of product‑level revenue with top‑10 filter.
-
-### ✔ Slicers  
-- Category  
-- Store  
-- Year  
-- Month  
-
-### ✔ KPI Cards  
-- **Total Sales**  
-- **Total Profit**  
-- **Total Quantity Sold**
+## 2️⃣ Profit by Category  
+![Profit by Category](screenshots/excel Profit by Category.png)
 
 ---
 
-## 🎯 Drill‑Through Page
-
-When clicking on a category → the user is taken to a detailed page showing:
-
-- Selected Category (dynamic title)  
-- Sales by Product  
-- Monthly Trend  
-- KPI Metrics for that category  
+## 3️⃣ Sales by Category  
+![Sales by Category](screenshots/excel Sales by Category.png)
 
 ---
 
-## 🪄 Advanced Tooltip Page
-
-Hovering over visuals shows a mini‑report containing:
-
-- Total Sales  
-- Profit  
-- Quantity  
-- Monthly Mini Trend  
+## 4️⃣ Top 10 Products by Total Sales  
+![Top 10 Products](screenshots/excel Top 10 Products by TotalSales.png)
 
 ---
 
-## 🛠 Tools Used
+# 📊 Power BI Dashboard
 
-- **Power BI Desktop**
-- **Power Query**
-- **DAX**
-- **Excel (for dataset)**
-- **GitHub (project hosting)**
+## ⭐ Main Dashboard  
+![Main Dashboard](screenshots/powerbi main dashboard.png)
 
 ---
 
-## 📁 Project Files
-
-```
-📦 Electronics-Sales-Dashboard
-│
-├── 📄 README.md
-├── 📄 electronics_sales_dataset_800rows.csv
-├── 📄 electronics_sales_dashboard.pbix
-└── 📄 preview_screenshots/
-```
+## ⭐ Drillthrough – Category Details  
+![Drillthrough Category](screenshots/powerbi drill category.png)
 
 ---
 
-## 🚀 How to Use This Dashboard
-
-1. Clone the repo:  
-   ```bash
-   git clone https://github.com/yourusername/electronics-sales-dashboard.git
-   ```
-2. Open the `.pbix` file in Power BI Desktop.  
-3. Explore pages:  
-   - Main Dashboard  
-   - Tooltip Page  
-   - Drill‑Through Page  
+## ⭐ Drillthrough – Product Details  
+![Drillthrough Product](screenshots/powerbi drill product.png)
 
 ---
 
-## 🏁 Author
-
-**Forough Moosavi**  
-Data Analyst | Power BI Developer  
-📧 forooghmousavi1371@gmail.com 
+## ⭐ Custom Tooltip Page  
+![Tooltip Page](screenshots/powerbi tooltip.png)
 
 ---
 
-## ⭐ If you like this project  
-Please ⭐ the repository!
+# 🛠 Tools Used
+- Excel (Power Query, PivotTables)
+- Power BI (DAX, Modeling, Drillthrough, Tooltip)
+- GitHub for hosting
 
+---
+
+# 📧 Contact  
+Created by **Forough Moosavi**  
+📩 Email: **forooghmousavi1371@gmail.com**
+
+If you found this project useful, please ⭐ the repository!
