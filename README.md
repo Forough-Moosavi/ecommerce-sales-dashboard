@@ -112,6 +112,6 @@ Data Analyst | Power BI Developer
 📧 Secondary: **forough.analytics@outlook.com**
 
 ---
+⭐ If you found this project useful
 
-# ⭐ اگر این پروژه را دوست داشتی  
-لطفاً ⭐ بده و فالو کن تا پروژه‌های بیشتری ببینی! ❤️
+Please give the repository a star ⭐ — it helps a lot!
