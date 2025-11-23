@@ -1,63 +1,117 @@
+
 # 📊 E-Commerce Sales Dashboard (Excel + Power BI)
 
-A complete end-to-end data analytics project using **Excel** and **Power BI**, based on a synthetic dataset of **10,000 e-commerce orders**.  
-This dashboard demonstrates skills in **Power Query**, **PivotTables**, **DAX**, **Drillthrough**, **Tooltip pages**, and **interactive BI design**.
+A complete **end-to-end business analytics project** built using **Excel** and **Power BI**, based on a synthetic dataset of **10,000+ e-commerce orders**.
+
+This project demonstrates strong skills in:
+- **Power Query**
+- **Data Cleaning**
+- **PivotTables & Excel Analysis**
+- **Data Modeling**
+- **DAX Calculations**
+- **Interactive Dashboard Design**
+- **Drillthrough Pages**
+- **Custom Tooltip Reports**
 
 ---
 
-# 🧹 Excel Analysis (PivotTables)
+# 🧹 1. Excel Analysis (PivotTables)
 
-## 1️⃣ Monthly Sales Overview  
-![Monthly Sales](screenshots/excel Monthly Sales.png)
-
----
-
-## 2️⃣ Profit by Category  
-![Profit by Category](screenshots/excel Profit by Category.png)
+### ✅ Monthly Sales Overview  
+![Monthly Sales](screenshots/excel_Monthly_Sales.png)
 
 ---
 
-## 3️⃣ Sales by Category  
-![Sales by Category](screenshots/excel Sales by Category.png)
+### ✅ Profit by Category  
+![Profit by Category](screenshots/excel_Profit_by_Category.png)
 
 ---
 
-## 4️⃣ Top 10 Products by Total Sales  
-![Top 10 Products](screenshots/excel Top 10 Products by TotalSales.png)
+### ✅ Total Sales by Category  
+![Sales by Category](screenshots/excel_Sales_by_Category.png)
 
 ---
 
-# 📊 Power BI Dashboard
-
-## ⭐ Main Dashboard  
-![Main Dashboard](screenshots/powerbi main dashboard.png)
+### ✅ Top 10 Products by Total Sales  
+![Top Products](screenshots/excel_Top_10_Products_by_TotalSales.png)
 
 ---
 
-## ⭐ Drillthrough – Category Details  
-![Drillthrough Category](screenshots/powerbi drill category.png)
+# 🚀 2. Power BI Interactive Dashboard
+
+### 📌 Main Dashboard  
+Includes:
+- Monthly Sales Trend  
+- KPI Cards (Sales, Profit, Quantity)  
+- Category-wise Sales  
+- Profit Analysis  
+- Product Ranking  
+- Slicers (Category, Month)
+
+![Main Dashboard](screenshots/powerbi_main_dashboard.png)
 
 ---
 
-## ⭐ Drillthrough – Product Details  
-![Drillthrough Product](screenshots/powerbi drill product.png)
+# 🎯 3. Drillthrough Pages
+
+### 🔍 Category Details Drillthrough  
+Dynamic breakdown of:
+- Category total sales
+- Monthly trend
+- Product-level analysis
+
+![Drill Category](screenshots/powerbi_drill_category.png)
 
 ---
 
-## ⭐ Custom Tooltip Page  
-![Tooltip Page](screenshots/powerbi tooltip.png)
+### 🔍 Product Details Drillthrough  
+Shows:
+- Monthly sales trend for a selected product
+- Quantity & UnitPrice comparison
+- Profit vs Sales scatter chart
+
+![Drill Product](screenshots/powerbi_drill_product.png)
 
 ---
 
-# 🛠 Tools Used
-- Excel (Power Query, PivotTables)
-- Power BI (DAX, Modeling, Drillthrough, Tooltip)
-- GitHub for hosting
+# 🪄 4. Tooltip Page (Mini Report)
+
+A custom interactive tooltip appears when hovering over visuals.
+
+![Tooltip](screenshots/powerbi_tooltip.png)
 
 ---
 
-# 📧 Contact  
-Created by **Forough Moosavi**  
-📩 Email: **forooghmousavi1371@gmail.com**
+# 📁 Project Structure
 
-If you found this project useful, please ⭐ the repository!
+```
+ecommerce-sales-dashboard/
+│
+├── ecommerce_sales_10000rows.csv
+├── excel.xlsx
+├── powerbi.pbix
+└── screenshots/
+    ├── excel_Monthly_Sales.png
+    ├── excel_Profit_by_Category.png
+    ├── excel_Sales_by_Category.png
+    ├── excel_Top_10_Products_by_TotalSales.png
+    ├── powerbi_main_dashboard.png
+    ├── powerbi_drill_category.png
+    ├── powerbi_drill_product.png
+    └── powerbi_tooltip.png
+```
+
+---
+
+# 👩‍💻 Author
+
+**Forough Moosavi**  
+Data Analyst | Power BI Developer  
+
+📧 Email: **forooghmousavi1371@gmail.com**  
+📧 Secondary: **forough.analytics@outlook.com**
+
+---
+
+# ⭐ اگر این پروژه را دوست داشتی  
+لطفاً ⭐ بده و فالو کن تا پروژه‌های بیشتری ببینی! ❤️
